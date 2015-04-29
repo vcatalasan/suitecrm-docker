@@ -1,0 +1,30 @@
+Writable Data Sub-Directories OK
+
+Writable Cache Sub-Directories OK
+
+PHP Memory Limit OK (128M)
+
+ZLIB Compression Module OK
+
+ZIP Handling Module OK
+
+PCRE Library OK
+
+IMAP Module Not found: InboundEmail and Campaigns (Email) require the IMAP libraries. Neither will be functional.
+
+cURL Module OK
+
+Upload File Size Warning: Your PHP configuration should be changed to allow files of at least 6MB to be uploaded.
+
+Sprite Support OK
+
+PHP allows to use stream (upload://) OK
+
+Location of your PHP configuration file (php.ini): /etc/php5/cli/php.ini
+
+To Setup Crontab
+Note: In order to run Sugar Schedulers, add the following line to the crontab file: 
+*    *    *    *    *     cd /code/SuiteCRM; php -f cron.php > /dev/null 2>&1 
+
+
+
